@@ -11,4 +11,4 @@ def tuzhixina():
 
 @app.route('/v2')
 def v2():
-    return 'Second action 2'
+    return 'Second action'
