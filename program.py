@@ -19,4 +19,4 @@ def ssh():
 
 @app.route('/asoyan')
 def asoyan():
-    return 'Hello from CI with GitHub Actions by Asoyan'
+    return 'Hello from CI with GitHub Actions by Asoyan v2'
