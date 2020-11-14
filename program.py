@@ -18,5 +18,5 @@ def ssh():
     return 'Hello from auto update with ssh'
 
 @app.route('/asoyan')
-def ssh():
+def asoyan():
     return 'Hello from CI with GitHub Actions by Asoyan'
