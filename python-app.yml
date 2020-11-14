@@ -53,12 +53,12 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: danilkashtan/flask_app_example:latest
+        tags: console7331/console7331:latest
     - name: Restart service
       uses: fifsky/ssh-action@master
       with:
         command: |
-          cd asoyan
+          cd surovcev
           docker-compose --no-ansi pull
           docker-compose --no-ansi up -d
         host: ${{ secrets.SSH_HOST }}
