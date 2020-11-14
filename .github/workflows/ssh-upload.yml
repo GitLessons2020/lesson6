@@ -1,9 +1,0 @@
-- name: ls -a via ssh
-  uses: fifsky/ssh-action@master
-  with:
-    command: |
-      cd /home/student/tuzhixina
-      docker-compose up --build
-    host: ${{ secrets.SSH_IP_ADDRESS }}
-    user: ${{ secrets.SSH_LOGIN }}
-    key: ${{ secrets.SSH_PASSWORD}}
