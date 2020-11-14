@@ -58,7 +58,7 @@ jobs:
       uses: fifsky/ssh-action@master
       with:
         command: |
-          cd makushchenko
+          cd asoyan
           docker-compose --no-ansi pull
           docker-compose --no-ansi up -d
         host: ${{ secrets.SSH_HOST }}
