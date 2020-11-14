@@ -4,4 +4,4 @@ services:
     flask_app:
         ports:
         - 5024:5000
-        image: danilkashtan/flask_app_example
+        image: console7331/flask_app_example
