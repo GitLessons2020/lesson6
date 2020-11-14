@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  flask_app:
+    ports:
+    - "5026:5000"
+    image: "bogyfobiya/lesson6"
