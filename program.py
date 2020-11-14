@@ -9,6 +9,7 @@ def hello_world():
 def tuzhixina():
     return 'Hello from CI with GitHub Actions by Tuzhixina'
 
+
 @app.route('/v2')
 def v2():
     return 'Second action'
