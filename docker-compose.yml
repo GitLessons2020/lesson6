@@ -1,7 +1,7 @@
 version: '3'
+
 services:
-  lesson6:
-    build: .
+  flask_app:
     ports:
-    - "80:5000"
+    - "5026:5000"
     image: "bogyfobiya/lesson6"
