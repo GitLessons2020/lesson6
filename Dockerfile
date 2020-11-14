@@ -9,4 +9,6 @@ RUN pip install --upgrade pip && \
 
 COPY . .
 
-CMD [ "python", "./program.py" ]
+ENV FLASK_APP program.py
+
+CMD flask run -h 0.0.0.0
