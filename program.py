@@ -19,4 +19,4 @@ def ssh():
 
 @app.route('/morev')
 def morev():
-    return 'Hello from CI with GitHub Actions by Morev'
+    return 'Hello from CI with GitHub Actions by Morev second try'
